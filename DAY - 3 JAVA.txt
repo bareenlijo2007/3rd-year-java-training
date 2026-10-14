@@ -1,0 +1,106 @@
+               DAY - 3
+1)  Personal information
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your name: ");
+        String name = sc.nextLine();
+
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();
+        sc.nextLine();
+
+        System.out.print("Enter your city: ");
+        String city = sc.nextLine();
+
+        System.out.println("\nName: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("City: " + city);
+
+        sc.close();
+    }
+}
+
+
+
+2)Two-Number Calculatior
+
+class Main {
+    public static void main(String[] args) {
+        int a = 10, b = 5;
+
+        System.out.println("Sum = " + (a + b));
+        System.out.println("Difference = " + (a - b));
+        System.out.println("Product = " + (a * b));
+        System.out.println("Quotient = " + (a / b));
+    }
+}
+
+
+
+3)Rectangle calculator
+
+
+
+class Main {
+    public static void main(String[] args) {
+        int length = 10, breadth = 5;
+
+        System.out.println("Area = " + (length * breadth));
+        System.out.println("Perimeter = " + (2 * (length + breadth)));
+    }
+}
+
+
+4)Student Marks
+
+
+
+class Main {
+    public static void main(String[] args) {
+        int m1 = 80, m2 = 75, m3 = 90, m4 = 85, m5 = 70;
+
+        int total = m1 + m2 + m3 + m4 + m5;
+        double avg = total / 5.0;
+
+        System.out.println("Total = " + total);
+        System.out.println("Average = " + avg);
+    }
+}
+
+
+5)Employee Salary
+
+
+
+class Main {
+    public static void main(String[] args) {
+        double basic = 20000, bonus = 2000;
+        double total = basic + bonus;
+
+        System.out.printf("Basic Salary: %.2f%n", basic);
+        System.out.printf("Bonus: %.2f%n", bonus);
+        System.out.printf("Total Salary: %.2f%n", total);
+    }
+}
+
+
+
+6) Swap two numbers
+
+
+class Main {
+    public static void main(String[] args) {
+        int a = 10, b = 20, temp;
+
+        temp = a;
+        a = b;
+        b = temp;
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
+}
